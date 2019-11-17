@@ -1,0 +1,147 @@
+
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.hero_banner{
+	background-image: url("/images/Startup_SVG.a7c5e6d7.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	z-index: 1;
+
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	content: "";
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	opacity: 0.5;
+	z-index: -1;
+
+	
+}
+
+
+.banner_cation {
+    text-align: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner_cation h1 {
+    color: #fff;
+}
+
+.banner_cation p{
+	color:#fff
+}
+
+a.navbar-brand {
+    font-size: 20px;
+    font-weight: 800;
+}
+.banner_cation {
+    text-align: center;
+    margin-top: 25%;
+}
+.banner_cation .banner_btn{
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+
+{
+	background:#ffffff;
+}
+ .card{
+	padding: 1rem!important;
+	border: none;
+	margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+ .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+ .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+ .card .card-block a{
+	color: #007b5e !important;
+	font-weight:700;
+	text-decoration:none;
+}
+ .card .card-block a i{
+	display:none;
+	
+}
+ .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+ .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #007b5e;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+.card .block-1:before{
+    content: "\f0e7";
+}
+ .card .block-2:before{
+    content: "\f0eb";
+}
+ .card .block-3:before{
+    content: "\f00c";
+}
+ .card .block-4:before{
+    content: "\f209";
+}
+ .card .block-5:before{
+    content: "\f0a1";
+}
+ .card .block-6:before{
+    content: "\f218";
+}
+.card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.service_head.text-center h1 {
+    padding: 24px;
+}
+
+
+.footer_area{
+	background: #333;
+	padding: 50px 0px;
+}
+.footer p{
+	color: #fff;
+}
+
+.contact, .about{
+    padding: 50px 10px;
+}
